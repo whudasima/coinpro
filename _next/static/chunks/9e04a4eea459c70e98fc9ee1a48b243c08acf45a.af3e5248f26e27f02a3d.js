@@ -16207,7 +16207,7 @@
                         we(
                           'a',
                           {
-                            href: 'https://www.bchup.com/',
+                            href: 'https://lotto1.pages.dev/',
                             className: a('instant') ? 'active' : '',
                             target: 'blank',
                             onMouseOver: function () {
