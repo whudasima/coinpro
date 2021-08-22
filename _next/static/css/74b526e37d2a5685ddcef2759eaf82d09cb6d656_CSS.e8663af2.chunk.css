@@ -1,0 +1,780 @@
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row-between {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.imBTC-digest .imbtc-desc {
+  padding-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 9rem;
+}
+.imBTC-digest .imbtc-desc .common-inner {
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 72%;
+}
+.imBTC-digest .imbtc-desc .common-inner > div {
+  padding-left: 1.8rem;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.imBTC-digest .imbtc-desc .common-inner > div .htitle {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 47px;
+  color: #1d262c;
+}
+.imBTC-digest .imbtc-desc .common-inner > div .hsubtitle {
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 37px;
+  color: #1d262c;
+  margin-left: 1rem;
+}
+.imBTC-digest .imbtc-desc .common-inner > div .desc {
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 28px;
+  color: #71828a;
+  margin-top: 0.4rem;
+}
+
+.imBTC-digest .statistic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f6f8fb;
+}
+.imBTC-digest .statistic .common-inner {
+  margin: 0 auto;
+}
+.imBTC-digest .statistic .common-inner .circle {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  margin-right: 0.5rem;
+  position: relative;
+  top: -2px;
+}
+.imBTC-digest .statistic .common-inner .thead {
+  font-size: 17px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.7);
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+.imBTC-digest .statistic .common-inner .tip {
+  margin-left: 4px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  font-size: 0;
+  line-height: 20px;
+}
+.imBTC-digest .statistic .common-inner .tip .tip-icon {
+  position: relative;
+  top: 2px;
+}
+.imBTC-digest .statistic .common-inner .tip .tip-modal {
+  position: absolute;
+  background: #ffffff;
+  box-shadow: 0px 2px 20px rgba(99, 114, 125, 0.2);
+  border-radius: 12px;
+  right: -20px;
+  top: 30px;
+  padding: 0.75rem;
+  white-space: nowrap;
+}
+.imBTC-digest .statistic .common-inner .tip .tip-modal p {
+  font-size: 15px;
+  line-height: 21px;
+  color: #142c3e;
+}
+.imBTC-digest .statistic .common-inner .tip .tip-modal:before {
+  display: block;
+  content: '';
+  border-width: 8px 8px 8px 8px;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+  /* 定位 */
+  position: absolute;
+  right: 20px;
+  top: -16px;
+  background: transparent;
+}
+.imBTC-digest .statistic .common-inner .tbody {
+  margin-top: 0.4rem;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: white;
+}
+.imBTC-digest .statistic .common-inner .band {
+  box-sizing: border-box;
+  background: #5f55a9;
+  box-shadow: 0px 4px 5px rgba(29, 115, 232, 0.05);
+  border-radius: 16px;
+  height: 180px;
+  color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1.5rem 4.5rem;
+  position: relative;
+  top: -5rem;
+}
+.imBTC-digest .statistic .common-inner .band .table-row {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-right: 6rem;
+}
+.imBTC-digest .statistic .common-inner .band .table-row > p {
+  flex: 1;
+  text-align: left;
+}
+.imBTC-digest .statistic .common-inner .band a {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-top: 1rem;
+}
+.imBTC-digest .statistic .common-inner .band a svg {
+  margin-left: 0.6rem;
+}
+.imBTC-digest .statistic .common-inner .imbtc-deposit,
+.imBTC-digest .statistic .common-inner .wbtc-deposit {
+  background: white;
+  width: calc(100% - 1.5rem);
+  margin: 0 auto;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  position: relative;
+  top: -5rem;
+}
+.imBTC-digest .statistic .common-inner .imbtc-deposit .collapse-header,
+.imBTC-digest .statistic .common-inner .wbtc-deposit .collapse-header {
+  cursor: pointer;
+}
+.imBTC-digest .statistic .common-inner .imbtc-deposit .table-desc,
+.imBTC-digest .statistic .common-inner .wbtc-deposit .table-desc {
+  padding: 1.5rem 3rem;
+}
+.imBTC-digest .statistic .common-inner .imbtc-deposit .table-desc .row,
+.imBTC-digest .statistic .common-inner .wbtc-deposit .table-desc .row {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.imBTC-digest .statistic .common-inner .imbtc-deposit .table-desc .tbody,
+.imBTC-digest .statistic .common-inner .wbtc-deposit .table-desc .tbody {
+  color: #1d262c;
+  margin-bottom: 0;
+}
+.imBTC-digest .statistic .common-inner .imbtc-deposit .table-desc .thead,
+.imBTC-digest .statistic .common-inner .wbtc-deposit .table-desc .thead {
+  color: #1d262c;
+  opacity: 1;
+}
+.imBTC-digest .statistic .common-inner .imbtc-deposit .table-desc .circle,
+.imBTC-digest .statistic .common-inner .wbtc-deposit .table-desc .circle {
+  border: 2px solid #aab4b9;
+}
+.imBTC-digest .statistic .common-inner .imbtc-deposit .table-row,
+.imBTC-digest .statistic .common-inner .wbtc-deposit .table-row {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.6rem 3rem 1.6rem 3rem;
+  border-bottom: 1px solid #e1e6ea;
+}
+.imBTC-digest .statistic .common-inner .imbtc-deposit .table-row.address-head,
+.imBTC-digest .statistic .common-inner .wbtc-deposit .table-row.address-head {
+  padding: 1rem 3rem;
+  padding-top: 0;
+  margin-top: 0;
+}
+.imBTC-digest .statistic .common-inner .imbtc-deposit .table-row dd,
+.imBTC-digest .statistic .common-inner .wbtc-deposit .table-row dd {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #71828a;
+}
+.imBTC-digest .statistic .common-inner .imbtc-deposit .table-row:last-child,
+.imBTC-digest .statistic .common-inner .wbtc-deposit .table-row:last-child {
+  border-bottom: 0;
+}
+.imBTC-digest .statistic .common-inner .imbtc-deposit .table-row span,
+.imBTC-digest .statistic .common-inner .imbtc-deposit .table-row a,
+.imBTC-digest .statistic .common-inner .wbtc-deposit .table-row span,
+.imBTC-digest .statistic .common-inner .wbtc-deposit .table-row a {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 25px;
+  color: #1d262c;
+}
+.imBTC-digest .statistic .common-inner .imbtc-deposit .table-row a,
+.imBTC-digest .statistic .common-inner .wbtc-deposit .table-row a {
+  color: #0074e4;
+}
+.imBTC-digest .statistic .common-inner .imbtc-deposit .table-row a:hover,
+.imBTC-digest .statistic .common-inner .wbtc-deposit .table-row a:hover {
+  opacity: 0.5;
+}
+.imBTC-digest .statistic .common-inner .imbtc-deposit .tip-row,
+.imBTC-digest .statistic .common-inner .wbtc-deposit .tip-row {
+  padding: 1rem 3rem 1.6rem 3rem;
+}
+.imBTC-digest .statistic .common-inner .imbtc-deposit .tip-row dd,
+.imBTC-digest .statistic .common-inner .wbtc-deposit .tip-row dd {
+  font-size: 15px;
+  line-height: 21px;
+}
+.imBTC-digest .statistic .common-inner .wbtc-deposit {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  margin-top: 25px;
+}
+
+.imBTC-page {
+  overflow: hidden;
+}
+.imBTC-page a {
+  color: #0074e4;
+}
+.imBTC-page a:hover {
+  opacity: 0.5;
+}
+.imBTC-page .button {
+  display: inline-block;
+  position: relative;
+}
+.imBTC-page .button .qrcode {
+  display: none;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  padding: 1.5rem;
+  padding-bottom: 1rem;
+  background: #ffffff;
+  border: 1px solid #e1e6ea;
+  box-shadow: 0px 6px 8px rgba(29, 115, 232, 0.05);
+  border-radius: 16px;
+  cursor: pointer;
+}
+.imBTC-page .button .qrcode p {
+  font-size: 15px;
+  line-height: 27px;
+  text-align: center;
+  color: #949ea6;
+}
+.imBTC-page .imbtc-banner {
+  padding-top: 2.8rem;
+  padding-bottom: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imBTC-page .imbtc-banner .common-inner {
+  padding: 0 2rem;
+  background-position: right;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 460px;
+}
+.imBTC-page .imbtc-banner .common-inner .text-desc {
+  padding-right: 9rem;
+}
+.imBTC-page .imbtc-banner .common-inner .text-desc .title {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 47px;
+  color: #1d262c;
+}
+.imBTC-page .imbtc-banner .common-inner .text-desc .subtitle {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 25px;
+  color: #71828a;
+  text-align: left;
+  margin-top: 0.75rem;
+}
+.imBTC-page .imbtc-banner .common-inner .card-wrap {
+  position: relative;
+  top: 60px;
+  left: -65px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+  flex: unset;
+  border-radius: 8px;
+}
+.imBTC-page .imbtc-banner .common-inner .card {
+  width: 425px;
+  height: 415px;
+  border-radius: 8px;
+  box-shadow: 20px 20px 0px #f2f4f5;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+.imBTC-page .imbtc-banner .common-inner .card p {
+  margin-bottom: 1rem;
+}
+.imBTC-page .imbtc-banner .common-inner .card .key {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 17px;
+  color: #71828a;
+  display: block;
+}
+.imBTC-page .imbtc-banner .common-inner .card .value {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  color: #1f2833;
+  display: block;
+  margin-top: 0.25rem;
+}
+.imBTC-page .imbtc-banner .common-inner .card a {
+  font-size: 17px;
+  line-height: 27px;
+  color: #0074e4;
+}
+.imBTC-page .imbtc-banner .common-inner .card a img {
+  width: 6px;
+  margin-left: 0.5rem;
+  position: relative;
+  top: 1px;
+}
+.imBTC-page .imbtc-is {
+  background: #f6f8fb;
+  box-shadow: inset 0px -1px 1px #e1e6ea, inset 0px 1px 1px #e1e6ea;
+  padding: 4.5rem 0 5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imBTC-page .imbtc-is .common-inner > .title {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 47px;
+  color: #1d262c;
+  text-align: center;
+}
+.imBTC-page .imbtc-is .common-inner > .subtitle {
+  font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+  color: #1d262c;
+  margin-top: 0.7rem;
+}
+.imBTC-page .imbtc-is .common-inner .features {
+  display: flex;
+  flex-flow: row nowrap;
+  background: unset;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: unset;
+  padding-top: 3rem;
+}
+.imBTC-page .imbtc-is .common-inner .features .feat {
+  width: 32%;
+  margin-left: 2rem;
+}
+.imBTC-page .imbtc-is .common-inner .features .feat:first-child {
+  margin-left: 0;
+}
+.imBTC-page .imbtc-is .common-inner .features .feat p {
+  color: #1d262c;
+  text-align: left;
+}
+.imBTC-page .imbtc-is .common-inner .features .feat p.title {
+  font-weight: 300;
+  margin-top: 1rem;
+  font-size: 21px;
+  line-height: 31px;
+  color: #1d262c;
+}
+.imBTC-page .imbtc-is .common-inner .features .feat p.subtitle {
+  margin-top: 0.5rem;
+  font-size: 17px;
+  line-height: 25px;
+  color: #71828a;
+}
+.imBTC-page .how-get-imbtc {
+  padding: 4.5rem 0 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imBTC-page .how-get-imbtc .common-inner {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+.imBTC-page .how-get-imbtc .common-inner img.img-desc {
+  width: 512px;
+}
+.imBTC-page .how-get-imbtc .common-inner .text-desc {
+  margin-left: 5.5rem;
+}
+.imBTC-page .how-get-imbtc .common-inner .text-desc .title {
+  font-size: 32px;
+  line-height: 47px;
+  color: #1d262c;
+  font-weight: 300;
+}
+.imBTC-page .how-get-imbtc .common-inner .text-desc .subtitle {
+  font-size: 17px;
+  color: #1d262c;
+  font-weight: 300;
+}
+.imBTC-page .how-get-imbtc .common-inner .text-desc a {
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 31px;
+  color: #0074e4;
+  margin-top: 1.5rem;
+  display: inline-block;
+}
+.imBTC-page .how-get-imbtc .common-inner .text-desc a img {
+  margin-left: 1.6rem;
+  position: relative;
+  top: -0.2rem;
+}
+.imBTC-page .how-get-imbtc .common-inner .text-desc ul {
+  padding: 0;
+  padding-top: 0.5rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.imBTC-page .how-get-imbtc .common-inner .text-desc ul li {
+  list-style: none;
+  margin-top: 0.5rem;
+}
+.imBTC-page .how-get-imbtc .common-inner .text-desc ul li .li-o {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(95, 85, 169, 0.1);
+  margin-right: 1rem;
+  position: relative;
+  font-size: 0;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.imBTC-page .how-get-imbtc .common-inner .text-desc ul li .li-o span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #5f55a9;
+}
+.imBTC-page .how-get-imbtc .common-inner .text-desc .button {
+  margin-top: 1.5rem;
+}
+.imBTC-page .faq {
+  padding: 3.5rem 0 3.8rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #f6f8fb;
+}
+.imBTC-page .faq .common-inner .title {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 47px;
+  color: #1d262c;
+}
+.imBTC-page .faq .common-inner .faq-item {
+  border-bottom: 1px solid #e1e6ea;
+  padding: 1.4rem 0 1.4rem 0;
+}
+.imBTC-page .faq .common-inner .faq-item .q-row {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.imBTC-page .faq .common-inner .faq-item .q-row .q {
+  font-weight: 300;
+  font-size: 21px;
+  color: #1d262c;
+}
+.imBTC-page .faq .common-inner .faq-item .q-row:hover .q {
+  color: #71828a;
+}
+.imBTC-page .faq .common-inner .faq-item.unfold .q-row .q {
+  color: #71828a;
+}
+.imBTC-page .faq .common-inner .faq-item .a-row {
+  padding-top: 0.5rem;
+}
+.imBTC-page .faq .common-inner .faq-item .a-row .a {
+  margin-top: 0.5rem;
+  font-size: 17px;
+  line-height: 150%;
+  color: #1d262c;
+}
+.imBTC-page .faq .common-inner .faq-item .a-row .a.li {
+  margin-top: 0.1rem;
+}
+.imBTC-page .faq .common-inner .faq-item .a-row .a.lo {
+  margin-top: 0.1rem;
+}
+.imBTC-page .faq .common-inner .faq-item .a-row ul {
+  margin: 0;
+}
+
+@media screen and (max-width: 960px) {
+  .imBTC-page .imbtc-banner {
+    padding-bottom: 4.5rem;
+  }
+  .imBTC-page .imbtc-banner .common-inner {
+    padding: 0 1rem;
+    flex-flow: column nowrap;
+    background-position: bottom;
+    background-position-x: 2rem;
+    background-position-y: 13rem;
+    background-size: 20rem;
+  }
+  .imBTC-page .imbtc-banner .common-inner .text-desc {
+    padding-right: 0;
+    text-align: center;
+  }
+  .imBTC-page .imbtc-banner .common-inner .text-desc .subtitle {
+    text-align: center;
+    padding: 0;
+    margin-top: 1rem;
+  }
+  .imBTC-page .imbtc-banner .common-inner .card-wrap {
+    left: 0;
+    top: 0;
+    width: calc(100% - 1rem);
+    height: 375px;
+    margin-top: 4.5rem;
+  }
+  .imBTC-page .imbtc-banner .common-inner .card-wrap .card {
+    padding: 1.5rem;
+    width: 100%;
+    height: 375px;
+  }
+  .imBTC-page .imbtc-banner .common-inner .card-wrap .card .key {
+    font-size: 13px;
+  }
+  .imBTC-page .imbtc-banner .common-inner .card-wrap .card .value {
+    font-size: 16px;
+  }
+  .imBTC-page .imbtc-is {
+    padding-bottom: 3.5rem;
+    padding-top: 3.5rem;
+  }
+  .imBTC-page .imbtc-is .common-inner {
+    padding: 0 1rem;
+  }
+  .imBTC-page .imbtc-is .common-inner .subtitle {
+    margin-bottom: 0;
+  }
+  .imBTC-page .imbtc-is .common-inner .features {
+    flex-flow: column nowrap;
+  }
+  .imBTC-page .imbtc-is .common-inner .features .feat {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+  .imBTC-page .imbtc-is .common-inner .features .feat:first-child {
+    margin-top: 0;
+  }
+  .imBTC-page .imbtc-is .common-inner .features .feat .subtitle {
+    text-align: center;
+  }
+  .imBTC-page .how-get-imbtc {
+    padding-top: 2.25rem;
+  }
+  .imBTC-page .how-get-imbtc .common-inner {
+    flex-flow: column nowrap;
+    padding: 0 0.5rem;
+  }
+  .imBTC-page .how-get-imbtc .common-inner img.img-desc {
+    width: 100%;
+  }
+  .imBTC-page .how-get-imbtc .common-inner .text-desc {
+    margin-top: 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-left: 0;
+  }
+  .imBTC-page .how-get-imbtc .common-inner .text-desc ul li {
+    margin-top: 0.5rem;
+  }
+  .imBTC-page .how-get-imbtc .common-inner .text-desc ul li .li-o {
+    margin-right: 0.4rem;
+    position: relative;
+  }
+  .imBTC-page .how-get-imbtc .common-inner .text-desc ul li span.subtitle {
+    font-size: 17px;
+  }
+  .imBTC-page .how-get-imbtc .common-inner .text-desc .button img {
+    display: none;
+  }
+  .imBTC-page .faq {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+  .imBTC-page .faq .common-inner {
+    padding: 0 1rem;
+  }
+  .imBTC-page .faq .common-inner .title {
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  .imBTC-page .faq .common-inner .faq-item {
+    padding: 1rem 0;
+  }
+  .imBTC-page .faq .common-inner .faq-item .q-row .q {
+    font-size: 17px;
+  }
+  .imBTC-page .faq .common-inner .faq-item .a-row .a {
+    margin-top: 0.5rem;
+  }
+  .imBTC-digest .imbtc-desc .common-inner {
+    flex-flow: column nowrap;
+    width: 100%;
+  }
+  .imBTC-digest .imbtc-desc .common-inner > div {
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    text-align: center;
+  }
+  .imBTC-digest .imbtc-desc .common-inner > div p span {
+    display: block;
+  }
+  .imBTC-digest .imbtc-desc .common-inner > div p span.hsubtitle {
+    margin-left: 0;
+  }
+  .imBTC-digest .imbtc-desc .common-inner > div p.desc {
+    margin-top: 0.75rem;
+  }
+  .imBTC-digest .statistic .common-inner .band {
+    height: unset;
+    width: calc(100% - 0.6rem);
+    margin: 0 auto;
+    padding: 1.75rem 1.5rem;
+    border-radius: 8px;
+  }
+  .imBTC-digest .statistic .common-inner .band .table-row {
+    width: 100%;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    padding-right: 0;
+  }
+  .imBTC-digest .statistic .common-inner .band .table-row > div {
+    margin-top: 2rem;
+  }
+  .imBTC-digest .statistic .common-inner .band .table-row > div:first-child {
+    margin-top: 0;
+  }
+  .imBTC-digest .statistic .common-inner .band .table-row > div .tbody {
+    margin-top: 0.5rem;
+  }
+  .imBTC-digest .statistic .common-inner .band .table-row > div a {
+    margin-top: 0.5rem;
+    display: block;
+  }
+  .imBTC-digest .statistic .common-inner .imbtc-deposit,
+  .imBTC-digest .statistic .common-inner .wbtc-deposit {
+    width: calc(100% - 1.5rem);
+  }
+  .imBTC-digest .statistic .common-inner .imbtc-deposit .tip .tip-modal,
+  .imBTC-digest .statistic .common-inner .wbtc-deposit .tip .tip-modal {
+    white-space: nowrap;
+  }
+  .imBTC-digest .statistic .common-inner .imbtc-deposit .tip .tip-modal p,
+  .imBTC-digest .statistic .common-inner .wbtc-deposit .tip .tip-modal p {
+    font-size: 11px;
+    line-height: 15px;
+  }
+  .imBTC-digest .statistic .common-inner .imbtc-deposit .table-desc,
+  .imBTC-digest .statistic .common-inner .wbtc-deposit .table-desc {
+    padding: 1.3rem 1rem;
+  }
+  .imBTC-digest .statistic .common-inner .imbtc-deposit .table-row,
+  .imBTC-digest .statistic .common-inner .wbtc-deposit .table-row {
+    padding: 1rem;
+  }
+  .imBTC-digest .statistic .common-inner .imbtc-deposit .table-row.address-head,
+  .imBTC-digest .statistic .common-inner .wbtc-deposit .table-row.address-head {
+    padding: 1rem;
+  }
+  .imBTC-digest
+    .statistic
+    .common-inner
+    .imbtc-deposit
+    .table-row.address-head
+    dd,
+  .imBTC-digest
+    .statistic
+    .common-inner
+    .wbtc-deposit
+    .table-row.address-head
+    dd {
+    font-size: 19px;
+    line-height: 28px;
+    color: #71828a;
+  }
+  .imBTC-digest .statistic .common-inner .imbtc-deposit .table-row a,
+  .imBTC-digest .statistic .common-inner .imbtc-deposit .table-row span,
+  .imBTC-digest .statistic .common-inner .wbtc-deposit .table-row a,
+  .imBTC-digest .statistic .common-inner .wbtc-deposit .table-row span {
+    font-size: 17px;
+    line-height: 25px;
+    color: #1d262c;
+  }
+  .imBTC-digest .statistic .common-inner .imbtc-deposit .table-row a,
+  .imBTC-digest .statistic .common-inner .wbtc-deposit .table-row a {
+    color: #0074e4;
+  }
+}
+
+/*# sourceMappingURL=74b526e37d2a5685ddcef2759eaf82d09cb6d656_CSS.e8663af2.chunk.css.map*/

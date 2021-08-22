@@ -1,0 +1,114 @@
+.message-container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 13px;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  pointer-events: none;
+}
+.message-container > div {
+  margin-top: 10px;
+}
+
+.main-area-container .common-modal-container {
+  position: relative;
+  left: 80px;
+  top: 250px;
+}
+.main-area-container .common-modal-container .common-state-modal {
+  position: absolute;
+}
+
+.exchange-header-wrap .common-modal-container {
+  position: absolute;
+  right: 20px;
+  top: 250px;
+  z-index: 99;
+}
+
+.common-modal-container {
+  z-index: 101;
+}
+.common-modal-container .common-state-modal {
+  width: 360px;
+  background: #262c4b;
+  border-radius: 16px;
+  padding-top: 30px;
+  box-sizing: border-box;
+  position: relative;
+}
+.common-modal-container .common-state-modal .modal-close {
+  position: absolute;
+  top: 19px;
+  right: 17px;
+  width: 9px;
+  height: 9px;
+  cursor: pointer;
+}
+
+#tokenlon-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.common-modal-inner {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 640px) {
+  .common-inner {
+    background: transparent;
+  }
+  .common-modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.6)
+    );
+  }
+  .common-modal-container .common-state-modal {
+    position: absolute !important;
+    padding-top: 30px;
+    width: 100% !important;
+    top: auto;
+    bottom: 0;
+    left: 0 !important;
+    right: 0 !important;
+    border-radius: 6px 6px 0 0 !important;
+    transform: none;
+    padding-bottom: calc(env(safe-area-inset-bottom));
+  }
+  .common-modal-container .common-state-modal .modal-close {
+    top: 20px;
+    right: 20px;
+    width: 13px;
+    height: 13px;
+  }
+  #tokenlon-modal {
+    z-index: 100;
+  }
+  #tokenlon-modal .modal-close {
+    width: 13px;
+    height: 13px;
+  }
+}
+
+/*# sourceMappingURL=_app.b11e1979.chunk.css.map*/
