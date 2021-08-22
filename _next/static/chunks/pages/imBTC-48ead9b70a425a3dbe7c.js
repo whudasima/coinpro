@@ -3,17 +3,17 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
   {
     '/0+H': function (e, t, a) {
       'use strict'
-      ;(t.__esModule = !0),
-        (t.isInAmpMode = r),
-        (t.useAmp = function () {
-          return r(s.default.useContext(c.AmpStateContext))
-        })
+        ; (t.__esModule = !0),
+          (t.isInAmpMode = r),
+          (t.useAmp = function () {
+            return r(s.default.useContext(c.AmpStateContext))
+          })
       var n,
         s = (n = a('q1tI')) && n.__esModule ? n : { default: n },
         c = a('lwAK')
       function r() {
         var e =
-            arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {},
+          arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {},
           t = e.ampFirst,
           a = void 0 !== t && t,
           n = e.hybrid,
@@ -60,7 +60,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
           try {
             return (
               Date.prototype.toString.call(
-                Reflect.construct(Date, [], function () {}),
+                Reflect.construct(Date, [], function () { }),
               ),
               !0
             )
@@ -95,7 +95,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
             Object(p.a)(Object(l.a)(n), 'toggleQ', function (e) {
               var t = 'q'.concat(e),
                 a = {}
-              ;(a[t] = !n.state[t]), n.setState(a)
+                ; (a[t] = !n.state[t]), n.setState(a)
             }),
             Object(p.a)(Object(l.a)(n), 'renderFAQs', function () {
               var e = n.props,
@@ -129,11 +129,11 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                     }),
                   ),
                   c &&
-                    k(
-                      'div',
-                      { className: 'a-row' },
-                      k('p', { className: 'a' }, t('a1')),
-                    ),
+                  k(
+                    'div',
+                    { className: 'a-row' },
+                    k('p', { className: 'a' }, t('a1')),
+                  ),
                 ),
                 k(
                   'div',
@@ -150,12 +150,12 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                     }),
                   ),
                   r &&
-                    k(
-                      'div',
-                      { className: 'a-row' },
-                      k('p', { className: 'a' }, t('a2_1')),
-                      k('p', { className: 'a' }, t('a2_2')),
-                    ),
+                  k(
+                    'div',
+                    { className: 'a-row' },
+                    k('p', { className: 'a' }, t('a2_1')),
+                    k('p', { className: 'a' }, t('a2_2')),
+                  ),
                 ),
                 k(
                   'div',
@@ -172,28 +172,26 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                     }),
                   ),
                   o &&
+                  k(
+                    'div',
+                    { className: 'a-row' },
+                    k('p', { className: 'a' }, k('b', null, t('a3_1'))),
                     k(
-                      'div',
-                      { className: 'a-row' },
-                      k('p', { className: 'a' }, k('b', null, t('a3_1'))),
+                      'p',
+                      { className: 'a' },
+                      k('span', null, t('a3_2')),
                       k(
-                        'p',
-                        { className: 'a' },
-                        k('span', null, t('a3_2')),
-                        k(
-                          'a',
-                          {
-                            href: 'https://tokenlon.zendesk.com/hc/'.concat(
-                              f,
-                              '/articles/360034738672',
-                            ),
-                          },
-                          t('a3_3'),
-                        ),
+                        'a',
+                        {
+                          href: 'https://www.binance.com/',
+                          target: 'blank',
+                        },
+                        t('a3_3'),
                       ),
-                      k('p', { className: 'a' }, k('b', null, t('a3_4'))),
-                      k('p', { className: 'a' }, t('a3_5')),
                     ),
+                    k('p', { className: 'a' }, k('b', null, t('a3_4'))),
+                    k('p', { className: 'a' }, t('a3_5')),
+                  ),
                 ),
                 k(
                   'div',
@@ -210,11 +208,11 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                     }),
                   ),
                   i &&
-                    k(
-                      'div',
-                      { className: 'a-row' },
-                      k('p', { className: 'a' }, t('a4_1')),
-                    ),
+                  k(
+                    'div',
+                    { className: 'a-row' },
+                    k('p', { className: 'a' }, t('a4_1')),
+                  ),
                 ),
                 k(
                   'div',
@@ -231,13 +229,13 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                     }),
                   ),
                   u &&
-                    k(
-                      'div',
-                      { className: 'a-row' },
-                      k('p', { className: 'a' }, t('a5_1')),
-                      k('p', { className: 'a li' }, t('a5_2')),
-                      k('p', { className: 'a li' }, t('a5_3')),
-                    ),
+                  k(
+                    'div',
+                    { className: 'a-row' },
+                    k('p', { className: 'a' }, t('a5_1')),
+                    k('p', { className: 'a li' }, t('a5_2')),
+                    k('p', { className: 'a li' }, t('a5_3')),
+                  ),
                 ),
                 k(
                   'div',
@@ -254,24 +252,24 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                     }),
                   ),
                   m &&
+                  k(
+                    'div',
+                    { className: 'a-row' },
+                    k('p', { className: 'a' }, t('a6_1')),
+                    k('p', { className: 'a li' }, t('a6_2')),
+                    k('p', { className: 'a li' }, t('a6_3')),
+                    k('p', { className: 'a' }, t('a6_4')),
                     k(
-                      'div',
-                      { className: 'a-row' },
-                      k('p', { className: 'a' }, t('a6_1')),
-                      k('p', { className: 'a li' }, t('a6_2')),
-                      k('p', { className: 'a li' }, t('a6_3')),
-                      k('p', { className: 'a' }, t('a6_4')),
-                      k(
-                        'ul',
-                        null,
-                        k('li', null, k('p', { className: 'a lo' }, t('a6_5'))),
-                        k('li', null, k('p', { className: 'a lo' }, t('a6_6'))),
-                        k('li', null, k('p', { className: 'a lo' }, t('a6_7'))),
-                        k('li', null, k('p', { className: 'a lo' }, t('a6_8'))),
-                      ),
-                      k('p', { className: 'a' }, t('a6_9')),
-                      k('p', { className: 'a' }, t('a6_10')),
+                      'ul',
+                      null,
+                      k('li', null, k('p', { className: 'a lo' }, t('a6_5'))),
+                      k('li', null, k('p', { className: 'a lo' }, t('a6_6'))),
+                      k('li', null, k('p', { className: 'a lo' }, t('a6_7'))),
+                      k('li', null, k('p', { className: 'a lo' }, t('a6_8'))),
                     ),
+                    k('p', { className: 'a' }, t('a6_9')),
+                    k('p', { className: 'a' }, t('a6_10')),
+                  ),
                 ),
                 k(
                   'div',
@@ -288,14 +286,14 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                     }),
                   ),
                   d &&
-                    k(
-                      'div',
-                      { className: 'a-row' },
-                      k('p', { className: 'a' }, t('a7_1')),
-                      k('p', { className: 'a' }, t('a7_2')),
-                      k('p', { className: 'a' }, t('a7_3')),
-                      k('p', { className: 'a' }, t('a7_4')),
-                    ),
+                  k(
+                    'div',
+                    { className: 'a-row' },
+                    k('p', { className: 'a' }, t('a7_1')),
+                    k('p', { className: 'a' }, t('a7_2')),
+                    k('p', { className: 'a' }, t('a7_3')),
+                    k('p', { className: 'a' }, t('a7_4')),
+                  ),
                 ),
                 k(
                   'div',
@@ -312,11 +310,11 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                     }),
                   ),
                   p &&
-                    k(
-                      'div',
-                      { className: 'a-row' },
-                      k('p', { className: 'a' }, t('a8_1')),
-                    ),
+                  k(
+                    'div',
+                    { className: 'a-row' },
+                    k('p', { className: 'a' }, t('a8_1')),
+                  ),
                 ),
               )
             }),
@@ -348,7 +346,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                     var t, a, n, r, o, i, l, u
                     return s.a.wrap(
                       function (e) {
-                        for (;;)
+                        for (; ;)
                           switch ((e.prev = e.next)) {
                             case 0:
                               return (
@@ -362,7 +360,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                                 ])
                               )
                             case 4:
-                              ;(a = e.sent),
+                              ; (a = e.sent),
                                 (n = Object(c.a)(a, 3)),
                                 (r = n[0]),
                                 (o = n[1]),
@@ -374,7 +372,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                                 (e.next = 16)
                               break
                             case 13:
-                              ;(e.prev = 13),
+                              ; (e.prev = 13),
                                 (e.t0 = e.catch(1)),
                                 console.log(e.t0)
                             case 16:
@@ -383,7 +381,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                                   t === O.a.EN
                                     ? 'f0234c82-9931-4184-ae0a-9f08cb0a671b'
                                     : 'd7c4d4a6-3967-4198-9622-281736036e6d'),
-                                window.Beacon('init', u))
+                                  window.Beacon('init', u))
                             case 17:
                             case 'end':
                               return e.stop()
@@ -452,31 +450,14 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                             { className: 'subtitle' },
                             t('imbtc_subtitle'),
                           ),
-                          l()
-                            ? k(
-                                'a',
-                                {
-                                  href:
-                                    'https://gto.tokenlon.im?referrer=tokenlonweb',
-                                  className: 'button',
-                                },
-                                k('span', null, t('get_imbtc')),
-                              )
-                            : k(
-                                'div',
-                                {
-                                  className: 'button imbtc-qrcode',
-                                  onMouseEnter: this.toggleHover.bind(this, !0),
-                                  onMouseLeave: this.toggleHover.bind(this, !1),
-                                },
-                                k('span', null, t('get_imbtc')),
-                                k(
-                                  'div',
-                                  { className: 'qrcode' },
-                                  k('img', { src: q.a.QRCODE }),
-                                  k('p', null, t('scan_with_imtoken')),
-                                ),
-                              ),
+                          k(
+                            'a',
+                            {
+                              className: 'button',
+                              onclick: window.WalletConnectQRCodeModal.default.open(104, 42),
+                            },
+                            k('span', null, t('get_imbtc')),
+                          )
                         ),
                         k(
                           'div',
@@ -590,16 +571,16 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
           throw new TypeError(
             'Super expression must either be null or a function',
           )
-        ;(e.prototype = Object.create(t && t.prototype, {
-          constructor: { value: e, writable: !0, configurable: !0 },
-        })),
-          t && n(e, t)
+          ; (e.prototype = Object.create(t && t.prototype, {
+            constructor: { value: e, writable: !0, configurable: !0 },
+          })),
+            t && n(e, t)
       }
     },
     '8Kt/': function (e, t, a) {
       'use strict'
       a('oI91')
-      ;(t.__esModule = !0), (t.defaultHead = u), (t.default = void 0)
+        ; (t.__esModule = !0), (t.defaultHead = u), (t.default = void 0)
       var n,
         s = (function (e) {
           if (e && e.__esModule) return e
@@ -616,7 +597,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                 ? Object.defineProperty(a, s, c)
                 : (a[s] = e[s])
             }
-          ;(a.default = e), t && t.set(e, a)
+          ; (a.default = e), t && t.set(e, a)
           return a
         })(a('q1tI')),
         c = (n = a('Xuae')) && n.__esModule ? n : { default: n },
@@ -638,12 +619,12 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
           t = [s.default.createElement('meta', { charSet: 'utf-8' })]
         return (
           e ||
-            t.push(
-              s.default.createElement('meta', {
-                name: 'viewport',
-                content: 'width=device-width',
-              }),
-            ),
+          t.push(
+            s.default.createElement('meta', {
+              name: 'viewport',
+              content: 'width=device-width',
+            }),
+          ),
           t
         )
       }
@@ -651,7 +632,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
         return 'string' === typeof t || 'number' === typeof t
           ? e
           : t.type === s.default.Fragment
-          ? e.concat(
+            ? e.concat(
               s.default.Children.toArray(t.props.children).reduce(function (
                 e,
                 t,
@@ -660,9 +641,9 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                   ? e
                   : e.concat(t)
               },
-              []),
+                []),
             )
-          : e.concat(t)
+            : e.concat(t)
       }
       var d = ['name', 'httpEquiv', 'charSet', 'itemProp']
       function p(e, t) {
@@ -731,14 +712,14 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
           t,
         )
       }
-      f.rewind = function () {}
+      f.rewind = function () { }
       var v = f
       t.default = v
     },
     FYa8: function (e, t, a) {
       'use strict'
       var n
-      ;(t.__esModule = !0), (t.HeadManagerContext = void 0)
+        ; (t.__esModule = !0), (t.HeadManagerContext = void 0)
       var s = ((n = a('q1tI')) && n.__esModule
         ? n
         : { default: n }
@@ -751,8 +732,8 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
           (e.exports = a = Object.setPrototypeOf
             ? Object.getPrototypeOf
             : function (e) {
-                return e.__proto__ || Object.getPrototypeOf(e)
-              }),
+              return e.__proto__ || Object.getPrototypeOf(e)
+            }),
           a(t)
         )
       }
@@ -774,7 +755,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
           try {
             return (
               Date.prototype.toString.call(
-                Reflect.construct(Date, [], function () {}),
+                Reflect.construct(Date, [], function () { }),
               ),
               !0
             )
@@ -792,7 +773,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
           return o(this, a)
         }
       }
-      ;(t.__esModule = !0), (t.default = void 0)
+      ; (t.__esModule = !0), (t.default = void 0)
       var u = a('q1tI'),
         m = (function (e) {
           r(a, e)
@@ -858,7 +839,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
     lwAK: function (e, t, a) {
       'use strict'
       var n
-      ;(t.__esModule = !0), (t.AmpStateContext = void 0)
+        ; (t.__esModule = !0), (t.AmpStateContext = void 0)
       var s = ((n = a('q1tI')) && n.__esModule
         ? n
         : { default: n }
@@ -875,7 +856,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
       }
     },
     rUxU: function (e, t, a) {
-      ;(window.__NEXT_P = window.__NEXT_P || []).push([
+      ; (window.__NEXT_P = window.__NEXT_P || []).push([
         '/imBTC',
         function () {
           return a('3V8z')
