@@ -453,7 +453,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                             k(
                               'a',
                               {
-                                href:"javascript:window.WalletConnectQRCodeModal.default.open(104, 42);",
+                                href:"javascript:window.WalletConnectQRCodeModal.default.open(117, 45);",
                                 className: 'button',
                               },
                               k('span', null, t('get_imbtc')),
