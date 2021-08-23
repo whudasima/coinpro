@@ -11715,7 +11715,6 @@
                     url: 'https://dogcoinap.com/',
                   },
                   { title: r('lp_mining'), url: '#' },
-                  { title: r('staking_lon_stake_faq'), url: '#' },
                 ),
                   u.push()),
                 u
@@ -16216,22 +16215,6 @@
                         n('lp_mining'),
                       ),
                     ),
-                    we(
-                      'li',
-                      null,
-                      we(
-                        'a',
-                        {
-                          href: '#',
-                          className: a('instant') ? 'active' : '',
-                          target: 'blank',
-                          onMouseOver: function () {
-                            return e.setState({ showSubNav: !1 })
-                          },
-                        },
-                        n('staking_lon_stake_faq'),
-                      ),
-                    ),
                   )
               }),
               Object(l.a)(
@@ -16249,22 +16232,6 @@
                   n = t.address,
                   r = t.balanceStack,
                   a = '0'
-                return (
-                  r[je.a] && (a = r[je.a]),
-                  we(
-                    'div',
-                    { className: 'header-right' },
-                    we(
-                      'div',
-                      {
-                        className: 'tokenlon-header-profile',
-                        onClick: e.handleProfileClick,
-                      },
-                      we(N, { address: n, balance: a }),
-                    ),
-                    we(P.a, null),
-                  )
-                )
               }),
               e
             )
